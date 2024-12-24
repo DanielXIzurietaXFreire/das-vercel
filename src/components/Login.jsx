@@ -41,7 +41,7 @@ const Login = ({ onLogin }) => {
   return (
     <div className="bg-dark d-flex justify-content-center align-items-center vh-100">
       <div className="bg-white p-5 rounded-5 text-secondary shadow" style={{ width: "25rem" }}>
-        <h2 className="text-center fs-1 fw-bold">Login</h2>
+        <h2 className="text-center fs-1 fw-bold">Login de Das</h2>
         {error && <p className="text-danger text-center">{error}</p>}
         <form onSubmit={handleSubmit}>
           <InputGroup className="mt-4">
